@@ -1,0 +1,186 @@
+21-05-2019 11:54:20 INFO 59-Entered into resource layercardPaymentsResourceReqBean [clientInfo=ClientInfo [clientId=Web, channelId=Online, correlationId=e58b0a0e-34de-442b-89fb-3832dc851d5f, messageTs=12-12-2019], customerInfo=CustomerInfo [cardNumber=1234567891231234, cvvNumber=123, expDate=06/2022, nameOnCard=Sandy], serviceInfo=ServiceInfo [svcName=1001, apiName=Tesco api, version=1.0]]
+21-05-2019 11:54:20 INFO 105-Exit from resource layercardPaymentsResourceResBean [statusBlock=StatusBlock [responseCode=null, responseMsg=null], billPaymentsInfo=BillPaymentsInfo [paymentStatus=null, amount=null, date=null, desc=null]]
+21-05-2019 11:58:52 INFO 59-Entered into resource layercardPaymentsResourceReqBean [clientInfo=ClientInfo [clientId=Web, channelId=Online, correlationId=f1a8c9a2-421b-4ac0-b04d-1be5a8e82a78, messageTs=12-12-2019], customerInfo=CustomerInfo [cardNumber=1234567891231234, cvvNumber=123, expDate=06/2022, nameOnCard=Sandy], serviceInfo=ServiceInfo [svcName=1001, apiName=Tesco api, version=1.0]]
+21-05-2019 11:58:52 DEBUG28-Entered into validate method
+21-05-2019 11:58:52 DEBUG51-Exit from validate method
+21-05-2019 11:58:52 DEBUG27-Entered into request builder method
+21-05-2019 11:58:52 INFO 35-Exit from request builder methodcardPaymentsProcessReqBean [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+21-05-2019 11:58:52 INFO 28-Entered into response builder methodcardPaymentsProcessResBean [resCode=null, respMsg=null, errorCode=null, errorMsg=null, paymentStatus=null, amount=null, date=null, desc=null]
+21-05-2019 11:58:52 INFO 45-Exit from response builder methodcardPaymentsResourceResBean [statusBlock=StatusBlock [responseCode=null, responseMsg=null], billPaymentsInfo=BillPaymentsInfo [paymentStatus=null, amount=null, date=null, desc=null]]
+21-05-2019 11:58:52 INFO 105-Exit from resource layercardPaymentsResourceResBean [statusBlock=StatusBlock [responseCode=null, responseMsg=null], billPaymentsInfo=BillPaymentsInfo [paymentStatus=null, amount=null, date=null, desc=null]]
+21-05-2019 23:07:57 INFO 59-Entered into resource layercardPaymentsResourceReqBean [clientInfo=ClientInfo [clientId=Web, channelId=Online, correlationId=1f7b8d85-85ba-4246-953b-2012f531ccbd, messageTs=12-12-2019], customerInfo=CustomerInfo [cardNumber=1234567891231234, cvvNumber=123, expDate=06/2022, nameOnCard=Sandy], serviceInfo=ServiceInfo [svcName=1001, apiName=Tesco api, version=1.0]]
+21-05-2019 23:07:57 DEBUG28-Entered into validate method
+21-05-2019 23:07:57 DEBUG51-Exit from validate method
+21-05-2019 23:07:57 DEBUG27-Entered into request builder method
+21-05-2019 23:07:57 INFO 35-Exit from request builder methodcardPaymentsProcessReqBean [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+21-05-2019 23:07:57 INFO 45-Entered into process layercardPaymentsProcessReqBean [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+21-05-2019 23:07:57 DEBUG27-Entered into process req builder
+21-05-2019 23:07:57 INFO 35-Exit from process req buildercardPaymentsDAOReq [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+21-05-2019 23:07:57 INFO 32-Entered into integration layercardPaymentsDAOReq [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+21-05-2019 23:07:57 ERROR60-Exception caught
+com.tesco.card.payments.exceptions.BusinessException
+	at com.tesco.card.payments.dao.impl.CardPaymentsDAOImpl.doPayments(CardPaymentsDAOImpl.java:51)
+	at com.tesco.card.payments.process.impl.CardPaymentsProcessImpl.dopayments(CardPaymentsProcessImpl.java:66)
+	at com.tesco.card.payments.resource.api.impl.CardPaymentsResourceImpl.doPayments(CardPaymentsResourceImpl.java:74)
+	at com.tesco.card.payments.resource.api.impl.CardPaymentsResourceImpl.main(CardPaymentsResourceImpl.java:160)
+21-05-2019 23:07:57 DEBUG71-Exit from integration layer
+21-05-2019 23:07:57 DEBUG28-Entered into process res builder
+21-05-2019 23:07:57 DEBUG36-Exit from process res builder
+21-05-2019 23:07:57 DEBUG71-Exit from process layer
+21-05-2019 23:07:57 INFO 28-Entered into response builder methodcardPaymentsProcessResBean [resCode=null, respMsg=null, errorCode=null, errorMsg=null, paymentStatus=null, amount=null, date=null, desc=null]
+21-05-2019 23:07:57 INFO 45-Exit from response builder methodcardPaymentsResourceResBean [statusBlock=StatusBlock [responseCode=null, responseMsg=null], billPaymentsInfo=BillPaymentsInfo [paymentStatus=null, amount=null, date=null, desc=null]]
+21-05-2019 23:07:57 INFO 105-Exit from resource layercardPaymentsResourceResBean [statusBlock=StatusBlock [responseCode=null, responseMsg=null], billPaymentsInfo=BillPaymentsInfo [paymentStatus=null, amount=null, date=null, desc=null]]
+21-05-2019 23:08:29 INFO 59-Entered into resource layercardPaymentsResourceReqBean [clientInfo=ClientInfo [clientId=Web, channelId=Online, correlationId=5d5b582c-d184-4993-8e43-549a244c4ff8, messageTs=12-12-2019], customerInfo=CustomerInfo [cardNumber=1234567891231234, cvvNumber=123, expDate=06/2022, nameOnCard=Sandy], serviceInfo=ServiceInfo [svcName=1001, apiName=Tesco api, version=1.0]]
+21-05-2019 23:08:29 DEBUG28-Entered into validate method
+21-05-2019 23:08:29 DEBUG51-Exit from validate method
+21-05-2019 23:08:29 DEBUG27-Entered into request builder method
+21-05-2019 23:08:29 INFO 35-Exit from request builder methodcardPaymentsProcessReqBean [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+21-05-2019 23:08:29 INFO 45-Entered into process layercardPaymentsProcessReqBean [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+21-05-2019 23:08:29 DEBUG27-Entered into process req builder
+21-05-2019 23:08:29 INFO 35-Exit from process req buildercardPaymentsDAOReq [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+21-05-2019 23:08:29 INFO 32-Entered into integration layercardPaymentsDAOReq [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+21-05-2019 23:08:29 ERROR60-Exception caught
+com.tesco.card.payments.exceptions.BusinessException
+	at com.tesco.card.payments.dao.impl.CardPaymentsDAOImpl.doPayments(CardPaymentsDAOImpl.java:51)
+	at com.tesco.card.payments.process.impl.CardPaymentsProcessImpl.dopayments(CardPaymentsProcessImpl.java:66)
+	at com.tesco.card.payments.resource.api.impl.CardPaymentsResourceImpl.doPayments(CardPaymentsResourceImpl.java:74)
+	at com.tesco.card.payments.resource.api.impl.CardPaymentsResourceImpl.main(CardPaymentsResourceImpl.java:160)
+21-05-2019 23:08:29 DEBUG71-Exit from integration layer
+21-05-2019 23:08:29 DEBUG28-Entered into process res builder
+21-05-2019 23:08:29 DEBUG36-Exit from process res builder
+21-05-2019 23:08:29 DEBUG71-Exit from process layer
+21-05-2019 23:08:29 INFO 28-Entered into response builder methodcardPaymentsProcessResBean [resCode=null, respMsg=null, errorCode=null, errorMsg=null, paymentStatus=null, amount=null, date=null, desc=null]
+21-05-2019 23:08:29 INFO 45-Exit from response builder methodcardPaymentsResourceResBean [statusBlock=StatusBlock [responseCode=null, responseMsg=null], billPaymentsInfo=BillPaymentsInfo [paymentStatus=null, amount=null, date=null, desc=null]]
+21-05-2019 23:08:29 INFO 105-Exit from resource layercardPaymentsResourceResBean [statusBlock=StatusBlock [responseCode=null, responseMsg=null], billPaymentsInfo=BillPaymentsInfo [paymentStatus=null, amount=null, date=null, desc=null]]
+26-05-2019 19:39:43 DEBUG27-Entered into request builder method
+26-05-2019 19:40:21 DEBUG27-Entered into request builder method
+26-05-2019 19:41:50 INFO 59-Entered into resource layercardPaymentsResourceReqBean [clientInfo=ClientInfo [clientId=Web, channelId=Online, correlationId=a4f32e5d-b289-422b-aa6d-0de1793e2882, messageTs=12-12-2019], customerInfo=CustomerInfo [cardNumber=1234567891231234, cvvNumber=123, expDate=06/2022, nameOnCard=Sandy], serviceInfo=ServiceInfo [svcName=1001, apiName=Tesco api, version=1.0]]
+26-05-2019 19:41:50 DEBUG28-Entered into validate method
+26-05-2019 19:41:50 DEBUG51-Exit from validate method
+26-05-2019 19:41:50 DEBUG27-Entered into request builder method
+26-05-2019 19:41:50 INFO 35-Exit from request builder methodcardPaymentsProcessReqBean [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+26-05-2019 19:41:50 INFO 45-Entered into process layercardPaymentsProcessReqBean [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+26-05-2019 19:41:50 DEBUG27-Entered into process req builder
+26-05-2019 19:41:50 INFO 35-Exit from process req buildercardPaymentsDAOReq [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+26-05-2019 19:41:50 INFO 32-Entered into integration layercardPaymentsDAOReq [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+26-05-2019 19:41:50 ERROR60-Exception caught
+com.tesco.card.payments.exceptions.BusinessException
+	at com.tesco.card.payments.dao.impl.CardPaymentsDAOImpl.doPayments(CardPaymentsDAOImpl.java:51)
+	at com.tesco.card.payments.process.impl.CardPaymentsProcessImpl.dopayments(CardPaymentsProcessImpl.java:66)
+	at com.tesco.card.payments.resource.api.impl.CardPaymentsResourceImpl.doPayments(CardPaymentsResourceImpl.java:74)
+	at com.tesco.card.payments.resource.api.impl.CardPaymentsResourceImpl.main(CardPaymentsResourceImpl.java:160)
+26-05-2019 19:41:50 DEBUG71-Exit from integration layer
+26-05-2019 19:41:50 DEBUG28-Entered into process res builder
+26-05-2019 19:41:50 DEBUG36-Exit from process res builder
+26-05-2019 19:41:50 DEBUG71-Exit from process layer
+26-05-2019 19:41:50 INFO 28-Entered into response builder methodcardPaymentsProcessResBean [resCode=null, respMsg=null, errorCode=null, errorMsg=null, paymentStatus=null, amount=null, date=null, desc=null]
+26-05-2019 19:41:50 INFO 45-Exit from response builder methodcardPaymentsResourceResBean [statusBlock=StatusBlock [responseCode=null, responseMsg=null], billPaymentsInfo=BillPaymentsInfo [paymentStatus=null, amount=null, date=null, desc=null]]
+26-05-2019 19:41:50 INFO 105-Exit from resource layercardPaymentsResourceResBean [statusBlock=StatusBlock [responseCode=null, responseMsg=null], billPaymentsInfo=BillPaymentsInfo [paymentStatus=null, amount=null, date=null, desc=null]]
+26-05-2019 19:44:41 INFO 59-Entered into resource layercardPaymentsResourceReqBean [clientInfo=ClientInfo [clientId=Web, channelId=Online, correlationId=e66e5020-9e5a-4460-a019-92f9d5ab57bf, messageTs=12-12-2019], customerInfo=CustomerInfo [cardNumber=1234567891231234, cvvNumber=123, expDate=06/2022, nameOnCard=Sandy], serviceInfo=ServiceInfo [svcName=1001, apiName=Tesco api, version=1.0]]
+26-05-2019 19:44:41 DEBUG28-Entered into validate method
+26-05-2019 19:44:41 DEBUG51-Exit from validate method
+26-05-2019 19:44:41 DEBUG27-Entered into request builder method
+26-05-2019 19:44:41 INFO 35-Exit from request builder methodcardPaymentsProcessReqBean [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+26-05-2019 19:44:41 INFO 45-Entered into process layercardPaymentsProcessReqBean [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+26-05-2019 19:44:41 DEBUG27-Entered into process req builder
+26-05-2019 19:44:41 INFO 35-Exit from process req buildercardPaymentsDAOReq [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+26-05-2019 19:44:41 INFO 32-Entered into integration layercardPaymentsDAOReq [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+26-05-2019 19:44:41 DEBUG71-Exit from integration layer
+26-05-2019 19:44:41 DEBUG28-Entered into process res builder
+26-05-2019 19:44:41 DEBUG36-Exit from process res builder
+26-05-2019 19:44:41 DEBUG71-Exit from process layer
+26-05-2019 19:44:41 INFO 28-Entered into response builder methodcardPaymentsProcessResBean [resCode=0, respMsg=Success, errorCode=null, errorMsg=null, paymentStatus=Success, amount=10000, date=07-05-2019, desc=Payment cleared on time]
+26-05-2019 19:44:41 INFO 45-Exit from response builder methodcardPaymentsResourceResBean [statusBlock=StatusBlock [responseCode=0, responseMsg=Success], billPaymentsInfo=BillPaymentsInfo [paymentStatus=Success, amount=10000, date=07-05-2019, desc=Payment cleared on time]]
+26-05-2019 19:44:41 INFO 105-Exit from resource layercardPaymentsResourceResBean [statusBlock=StatusBlock [responseCode=0, responseMsg=Success], billPaymentsInfo=BillPaymentsInfo [paymentStatus=Success, amount=10000, date=07-05-2019, desc=Payment cleared on time]]
+26-05-2019 19:44:49 INFO 59-Entered into resource layercardPaymentsResourceReqBean [clientInfo=ClientInfo [clientId=Web, channelId=Online, correlationId=9aac8d24-8dd1-4232-bec0-74f9d07a24f5, messageTs=12-12-2019], customerInfo=CustomerInfo [cardNumber=1234567891231234, cvvNumber=123, expDate=06/2022, nameOnCard=Sandy], serviceInfo=ServiceInfo [svcName=1001, apiName=Tesco api, version=1.0]]
+26-05-2019 19:44:49 DEBUG28-Entered into validate method
+26-05-2019 19:44:49 DEBUG51-Exit from validate method
+26-05-2019 19:44:49 DEBUG27-Entered into request builder method
+26-05-2019 19:44:49 INFO 35-Exit from request builder methodcardPaymentsProcessReqBean [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+26-05-2019 19:44:49 INFO 45-Entered into process layercardPaymentsProcessReqBean [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+26-05-2019 19:44:49 DEBUG27-Entered into process req builder
+26-05-2019 19:44:49 INFO 35-Exit from process req buildercardPaymentsDAOReq [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+26-05-2019 19:44:49 INFO 32-Entered into integration layercardPaymentsDAOReq [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+26-05-2019 19:44:49 DEBUG71-Exit from integration layer
+26-05-2019 19:44:49 DEBUG28-Entered into process res builder
+26-05-2019 19:44:49 DEBUG36-Exit from process res builder
+26-05-2019 19:44:49 DEBUG71-Exit from process layer
+26-05-2019 19:44:49 INFO 28-Entered into response builder methodcardPaymentsProcessResBean [resCode=0, respMsg=Success, errorCode=null, errorMsg=null, paymentStatus=Success, amount=10000, date=07-05-2019, desc=Payment cleared on time]
+26-05-2019 19:44:49 INFO 45-Exit from response builder methodcardPaymentsResourceResBean [statusBlock=StatusBlock [responseCode=0, responseMsg=Success], billPaymentsInfo=BillPaymentsInfo [paymentStatus=Success, amount=10000, date=07-05-2019, desc=Payment cleared on time]]
+26-05-2019 19:44:49 INFO 105-Exit from resource layercardPaymentsResourceResBean [statusBlock=StatusBlock [responseCode=0, responseMsg=Success], billPaymentsInfo=BillPaymentsInfo [paymentStatus=Success, amount=10000, date=07-05-2019, desc=Payment cleared on time]]
+26-05-2019 19:45:12 DEBUG27-Entered into request builder method
+26-05-2019 19:46:05 DEBUG27-Entered into request builder method
+26-05-2019 19:47:07 DEBUG27-Entered into request builder method
+26-05-2019 19:50:03 DEBUG27-Entered into request builder method
+26-05-2019 19:52:21 DEBUG27-Entered into request builder method
+26-05-2019 19:52:21 INFO 35-Exit from request builder methodcardPaymentsProcessReqBean [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+26-05-2019 20:12:48 INFO 28-Entered into response builder methodcardPaymentsProcessResBean [resCode=0, respMsg=Success, errorCode=null, errorMsg=null, paymentStatus=Success, amount=10000, date=07-05-2019, desc=Payment cleared on time]
+26-05-2019 20:12:48 INFO 45-Exit from response builder methodcardPaymentsResourceResBean [statusBlock=StatusBlock [responseCode=0, responseMsg=Success], billPaymentsInfo=BillPaymentsInfo [paymentStatus=Success, amount=10000, date=07-05-2019, desc=Payment cleared on time]]
+26-05-2019 20:28:25 INFO 59-Entered into resource layercardPaymentsResourceReqBean [clientInfo=ClientInfo [clientId=Web, channelId=Online, correlationId=b398a35e-bdf5-49d2-8f88-dd6f5968210b, messageTs=12-12-2019], customerInfo=CustomerInfo [cardNumber=1234567891231234, cvvNumber=123, expDate=06/2022, nameOnCard=Sandy], serviceInfo=ServiceInfo [svcName=1001, apiName=Tesco api, version=1.0]]
+26-05-2019 20:28:25 DEBUG28-Entered into validate method
+26-05-2019 20:28:25 DEBUG51-Exit from validate method
+26-05-2019 20:28:25 DEBUG27-Entered into request builder method
+26-05-2019 20:28:25 INFO 35-Exit from request builder methodcardPaymentsProcessReqBean [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+26-05-2019 20:28:25 INFO 45-Entered into process layercardPaymentsProcessReqBean [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+26-05-2019 20:28:25 DEBUG27-Entered into process req builder
+26-05-2019 20:28:25 INFO 35-Exit from process req buildercardPaymentsDAOReq [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+26-05-2019 20:28:25 INFO 32-Entered into integration layercardPaymentsDAOReq [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+26-05-2019 20:28:25 DEBUG71-Exit from integration layer
+26-05-2019 20:28:25 DEBUG28-Entered into process res builder
+26-05-2019 20:28:25 DEBUG36-Exit from process res builder
+26-05-2019 20:28:25 DEBUG71-Exit from process layer
+26-05-2019 20:28:25 INFO 28-Entered into response builder methodcardPaymentsProcessResBean [resCode=0, respMsg=Success, errorCode=null, errorMsg=null, paymentStatus=Success, amount=10000, date=07-05-2019, desc=Payment cleared on time]
+26-05-2019 20:28:25 INFO 45-Exit from response builder methodcardPaymentsResourceResBean [statusBlock=StatusBlock [responseCode=0, responseMsg=Success], billPaymentsInfo=BillPaymentsInfo [paymentStatus=Success, amount=10000, date=07-05-2019, desc=Payment cleared on time]]
+26-05-2019 20:28:25 INFO 105-Exit from resource layercardPaymentsResourceResBean [statusBlock=StatusBlock [responseCode=0, responseMsg=Success], billPaymentsInfo=BillPaymentsInfo [paymentStatus=Success, amount=10000, date=07-05-2019, desc=Payment cleared on time]]
+27-05-2019 22:03:25 DEBUG28-Entered into validate method
+27-05-2019 22:03:25 DEBUG28-Entered into validate method
+27-05-2019 22:37:28 DEBUG28-Entered into validate method
+27-05-2019 22:37:28 DEBUG28-Entered into validate method
+27-05-2019 22:37:28 DEBUG28-Entered into validate method
+27-05-2019 22:37:28 DEBUG28-Entered into validate method
+27-05-2019 22:37:28 DEBUG28-Entered into validate method
+27-05-2019 22:40:04 INFO 28-Entered into response builder methodcardPaymentsProcessResBean [resCode=0, respMsg=Success, errorCode=null, errorMsg=null, paymentStatus=Success, amount=10000, date=07-05-2019, desc=Payment cleared on time]
+27-05-2019 22:40:04 INFO 45-Exit from response builder methodcardPaymentsResourceResBean [statusBlock=StatusBlock [responseCode=0, responseMsg=Success], billPaymentsInfo=BillPaymentsInfo [paymentStatus=Success, amount=10000, date=07-05-2019, desc=Payment cleared on time]]
+27-05-2019 22:40:04 DEBUG28-Entered into validate method
+27-05-2019 22:40:04 DEBUG28-Entered into validate method
+27-05-2019 22:40:04 DEBUG28-Entered into validate method
+27-05-2019 22:40:04 DEBUG28-Entered into validate method
+27-05-2019 22:40:04 DEBUG28-Entered into validate method
+27-05-2019 22:40:04 DEBUG27-Entered into request builder method
+27-05-2019 22:40:04 INFO 35-Exit from request builder methodcardPaymentsProcessReqBean [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+28-05-2019 10:09:35 INFO 28-Entered into response builder methodcardPaymentsProcessResBean [resCode=0, respMsg=Success, errorCode=null, errorMsg=null, paymentStatus=Success, amount=10000, date=07-05-2019, desc=Payment cleared on time]
+28-05-2019 10:09:36 INFO 45-Exit from response builder methodcardPaymentsResourceResBean [statusBlock=StatusBlock [responseCode=0, responseMsg=Success], billPaymentsInfo=BillPaymentsInfo [paymentStatus=Success, amount=10000, date=07-05-2019, desc=Payment cleared on time]]
+28-05-2019 10:09:36 DEBUG28-Entered into validate method
+28-05-2019 10:09:36 DEBUG28-Entered into validate method
+28-05-2019 10:09:36 DEBUG28-Entered into validate method
+28-05-2019 10:09:36 DEBUG28-Entered into validate method
+28-05-2019 10:09:36 DEBUG28-Entered into validate method
+28-05-2019 10:09:36 DEBUG28-Entered into validate method
+28-05-2019 10:09:36 DEBUG28-Entered into validate method
+28-05-2019 10:09:36 DEBUG28-Entered into validate method
+28-05-2019 10:09:36 DEBUG28-Entered into validate method
+28-05-2019 10:09:36 DEBUG27-Entered into request builder method
+28-05-2019 10:09:36 INFO 35-Exit from request builder methodcardPaymentsProcessReqBean [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+28-05-2019 10:14:42 DEBUG27-Entered into request builder method
+28-05-2019 10:14:42 INFO 35-Exit from request builder methodcardPaymentsProcessReqBean [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+05-06-2019 21:04:11 INFO 59-Entered into resource layercardPaymentsResourceReqBean [clientInfo=ClientInfo [clientId=Web, channelId=Online, correlationId=543a8ce8-0875-4e3d-a165-cf8ece013a5a, messageTs=12-12-2019], customerInfo=CustomerInfo [cardNumber=1234567891231234, cvvNumber=123, expDate=06/2022, nameOnCard=Sandy], serviceInfo=ServiceInfo [svcName=1001, apiName=Tesco api, version=1.0]]
+05-06-2019 21:04:11 DEBUG28-Entered into validate method
+05-06-2019 21:04:11 DEBUG51-Exit from validate method
+05-06-2019 21:04:11 DEBUG27-Entered into request builder method
+05-06-2019 21:04:11 INFO 35-Exit from request builder methodcardPaymentsProcessReqBean [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+05-06-2019 21:04:11 INFO 45-Entered into process layercardPaymentsProcessReqBean [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+05-06-2019 21:04:11 DEBUG27-Entered into process req builder
+05-06-2019 21:04:11 INFO 35-Exit from process req buildercardPaymentsDAOReq [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+05-06-2019 21:04:11 FATAL102-Error occured
+java.lang.NullPointerException
+	at java.util.Properties$LineReader.readLine(Unknown Source)
+	at java.util.Properties.load0(Unknown Source)
+	at java.util.Properties.load(Unknown Source)
+	at com.tesco.card.payments.dao.impl.CardPaymentsDAOImpl.prepareJdbcTemplate(CardPaymentsDAOImpl.java:65)
+	at com.tesco.card.payments.dao.impl.CardPaymentsDAOImpl.<init>(CardPaymentsDAOImpl.java:47)
+	at com.tesco.card.payments.process.impl.CardPaymentsProcessImpl.dopayments(CardPaymentsProcessImpl.java:65)
+	at com.tesco.card.payments.resource.api.impl.CardPaymentsResourceImpl.doPayments(CardPaymentsResourceImpl.java:74)
+	at com.tesco.card.payments.resource.api.impl.CardPaymentsResourceImpl.main(CardPaymentsResourceImpl.java:160)
+05-06-2019 21:04:11 INFO 105-Exit from resource layercardPaymentsResourceResBean [statusBlock=null, billPaymentsInfo=null]
+11-06-2019 23:48:12 DEBUG27-Entered into request builder method
+11-06-2019 23:48:12 INFO 35-Exit from request builder methodcardPaymentsProcessReqBean [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]

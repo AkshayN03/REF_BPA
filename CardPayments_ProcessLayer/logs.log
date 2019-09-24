@@ -1,0 +1,22 @@
+26-05-2019 20:39:37 INFO 45-Entered into process layercardPaymentsProcessReqBean [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+26-05-2019 20:39:37 DEBUG27-Entered into process req builder
+26-05-2019 20:39:37 INFO 35-Exit from process req buildercardPaymentsDAOReq [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+26-05-2019 20:39:37 INFO 32-Entered into integration layercardPaymentsDAOReq [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+26-05-2019 20:39:37 DEBUG71-Exit from integration layer
+26-05-2019 20:39:37 DEBUG28-Entered into process res builder
+26-05-2019 20:39:37 DEBUG36-Exit from process res builder
+26-05-2019 20:39:37 DEBUG71-Exit from process layer
+26-05-2019 20:40:43 INFO 45-Entered into process layercardPaymentsProcessReqBean [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+26-05-2019 20:40:43 DEBUG27-Entered into process req builder
+26-05-2019 20:40:43 INFO 35-Exit from process req buildercardPaymentsDAOReq [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+26-05-2019 20:40:43 INFO 32-Entered into integration layercardPaymentsDAOReq [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+26-05-2019 20:40:43 DEBUG71-Exit from integration layer
+26-05-2019 20:40:43 DEBUG28-Entered into process res builder
+26-05-2019 20:40:43 DEBUG36-Exit from process res builder
+26-05-2019 20:40:43 DEBUG71-Exit from process layer
+28-05-2019 10:27:20 DEBUG27-Entered into process req builder
+28-05-2019 10:27:20 INFO 35-Exit from process req buildercardPaymentsDAOReq [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+28-05-2019 10:28:35 DEBUG27-Entered into process req builder
+28-05-2019 10:28:35 INFO 35-Exit from process req buildercardPaymentsDAOReq [clientId=Web, channelId=Online, cardNumber=1234567891231234, cvvNumber=123, nameOnCard=Sandy, expDate=06/2022]
+28-05-2019 10:42:19 DEBUG28-Entered into process res builder
+28-05-2019 10:42:19 DEBUG36-Exit from process res builder
